@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.8'
+gem 'rails', '4.2.3'
 gem 'bcrypt', '3.1.7'
 gem 'bootstrap-sass', '3.2.0.0'
 
@@ -44,12 +44,13 @@ gem 'sdoc',         '0.4.0', group: :doc
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
   #gem 'byebug'
+  gem 'pry'
   gem 'web-console', '2.0.0.beta3'
   gem 'spring',      '1.1.3'
 end
 
 group :test do
-  gem 'minitest-reporters'
+  #gem 'minitest-reporters'
   gem 'mini_backtrace',     '0.1.3'
   gem 'guard-minitest',     '2.3.1'
 end
