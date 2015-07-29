@@ -9,7 +9,8 @@ Twitter::Application.routes.draw do
   delete  'logout'  =>  'sessions#destroy'
   resources :users
   resources :account_activations, only: [:edit]
-  #get 'account_activation' => 'account_activations#edit', :as => :edit_account_activation
+  resources :password_resets, only: [:new, :create, :edit, :update]
+
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
