@@ -1,0 +1,15 @@
+Run options: --seed 37951
+
+# Running:
+
+...E.
+
+Finished in 3.015317s, 1.6582 runs/s, 1.3266 assertions/s.
+
+  1) Error:
+MicropostTest#test_order_should_be_most_recent_first:
+NameError: undefined local variable or method `first' for #<MicropostTest:0x00000005e13d68>
+    test/models/micropost_test.rb:29:in `block in <class:MicropostTest>'
+
+5 runs, 4 assertions, 0 failures, 1 errors, 0 skips
+]2;[Minitest results] 5 tests
